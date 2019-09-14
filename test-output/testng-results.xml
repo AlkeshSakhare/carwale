@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41482" started-at="2019-08-18T13:55:19Z" finished-at="2019-08-18T13:56:00Z">
+  <suite name="Suite" duration-ms="59356" started-at="2019-09-14T07:27:10Z" finished-at="2019-09-14T07:28:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41482" started-at="2019-08-18T13:55:19Z" finished-at="2019-08-18T13:56:00Z">
+    <test name="Test1" duration-ms="59356" started-at="2019-09-14T07:27:10Z" finished-at="2019-09-14T07:28:09Z">
       <class name="com.carwale.testcases.SearchNewCarsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@1ba5a14]" name="setUp" is-config="true" duration-ms="17175" started-at="2019-08-18T19:25:19Z" finished-at="2019-08-18T19:25:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@c4c815]" name="setUp" is-config="true" duration-ms="20313" started-at="2019-09-14T12:57:10Z" finished-at="2019-09-14T12:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getresult()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@1ba5a14]" name="getresult" duration-ms="24268" started-at="2019-08-18T19:25:36Z" finished-at="2019-08-18T19:26:00Z">
+        <test-method status="PASS" signature="getresult()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@c4c815]" name="getresult" duration-ms="39008" started-at="2019-09-14T12:57:30Z" finished-at="2019-09-14T12:58:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getresult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@1ba5a14]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-18T19:26:00Z" finished-at="2019-08-18T19:26:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@c4c815]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-14T12:58:09Z" finished-at="2019-09-14T12:58:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.carwale.testcases.SearchNewCarsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>
