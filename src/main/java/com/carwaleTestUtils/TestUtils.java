@@ -10,6 +10,7 @@ import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -44,7 +45,7 @@ public class TestUtils extends TestBase {
 		ws.getRow(rowNo).getCell(colNo).setCellValue(data);
 		fo = new FileOutputStream(TESTDATA_SHEET_PATH);
 		wb.write(fo);
-		wb.close();
+
 	}
 
 	public static Object[][] getTestData(String sheetName) {
@@ -56,7 +57,7 @@ public class TestUtils extends TestBase {
 		}
 		try {
 			book = WorkbookFactory.create(file);
-		} catch (IOException e) {
+		} catch (IOException | InvalidFormatException e) {
 			e.printStackTrace();
 		}
 		DataFormatter formatter = new DataFormatter();
@@ -82,7 +83,7 @@ public class TestUtils extends TestBase {
 		cell.setCellValue(data);
 		fo = new FileOutputStream(TESTDATA_SHEET_PATH);
 		wb.write(fo);
-		wb.close();
+
 		fi.close();
 		fo.close();
 	}

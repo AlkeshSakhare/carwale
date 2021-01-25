@@ -6,4 +6,14 @@
       <class name="com.carwale.testcases.SearchNewCarsTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.carwale.testcases.SearchNewCarsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getresult"/>
+        </methods>
+      </class> <!-- com.carwale.testcases.SearchNewCarsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

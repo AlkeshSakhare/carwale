@@ -59,21 +59,29 @@ public class SearchNewCars extends TestBase {
 			TestUtils.click(budgetExpandBtn);
 			TestUtils.click(budget8_12);
 			Thread.sleep(3000);
-			int rownum = 1;
-			for (WebElement list : carNameList) {
-				System.out.println(list.getText().toString());
-				System.out.println("asasa");
-				saveData(rownum, 0, list.getText().toString());
-				System.out.println("asasa1");
-				rownum++;
+			for (int i = 0; i < carNameList.size(); i++) {
+				System.out.println(carNameList.get(i).getText().toString());
 			}
-			rownum = 1;
-			for (WebElement list : carPriceList) {
-				System.out.println(list.getText().toString());
-				saveData(rownum, 1, list.getText().toString());
-				System.out.println("Sheet1" + "\t" + rownum + "\t" + 1 + "\t" + list.getText().toString());
-				rownum++;
+			for (int i = 0; i < carPriceList.size(); i++) {
+				System.out.println(carPriceList.get(i).getText().toString());
 			}
+
+			// int rownum = 1;
+			// for (WebElement list : carNameList) {
+			// System.out.println(list.getText().toString());
+			// System.out.println("asasa");
+			// // saveData(rownum, 0, list.getText().toString());
+			// System.out.println("asasa1");
+			// rownum++;
+			// }
+			// rownum = 1;
+			// for (WebElement list : carPriceList) {
+			// System.out.println(list.getText().toString());
+			// // saveData(rownum, 1, list.getText().toString());
+			// System.out.println("Sheet1" + "\t" + rownum + "\t" + 1 + "\t" +
+			// list.getText().toString());
+			// rownum++;
+			// }
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -94,6 +102,7 @@ public class SearchNewCars extends TestBase {
 			FileOutputStream fos = new FileOutputStream(file);
 			wb.write(fos);
 			wb.close();
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
