@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,9 +38,12 @@ public class TestBase {
 	public static String userdir = System.getProperty("user.dir");
 
 	public TestBase() {
-		properties = new Properties();
+
 		try {
+			properties = new Properties();
+			logger = Logger.getLogger("Carwale");
 			properties.load(new FileReader(userdir + "/src/main/java/com/carwale/property/config.properties"));
+			PropertyConfigurator.configure(userdir + "/src/main/java/com/carwale/property/log4j.properties");
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

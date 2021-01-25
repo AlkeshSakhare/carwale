@@ -1,0 +1,975 @@
+2019-09-14 11:24:20,581 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 11:25:53,624 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 11:25:54,170 [Forwarding actions on session 88971ed736e417eb4ae8d1137a7432e7 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:25:58,296 [Forwarding actions on session 88971ed736e417eb4ae8d1137a7432e7 to remote] INFO Carwale - Exception occured: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ALKESH-PC', ip: '192.168.1.33', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Alkesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88971ed736e417eb4ae8d1137a7432e7
+*** Element info: {Using=xpath, value=//div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']}
+2019-09-14 11:25:59,743 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:25:59,747 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:25:59,752 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:25:59,754 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:25:59,756 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:26:00,652 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:26:00,654 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:26:00,661 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:26:00,663 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:26:00,663 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:26:24,578 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 11:26:48,856 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 11:26:48,952 [Forwarding actions on session c387a26ae6868a3d26386a32ba41f762 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:26:48,989 [Forwarding actions on session c387a26ae6868a3d26386a32ba41f762 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:26:49,242 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:26:49,389 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:26:51,445 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:26:51,463 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:26:51,480 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:26:51,513 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:26:51,514 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 11:26:56,815 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 11:26:56,816 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:26:57,275 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:26:59,352 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:27:00,300 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:27:00,328 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:27:00,355 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:27:00,356 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 11:27:00,510 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 11:27:00,511 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:27:00,688 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:27:02,828 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:27:02,850 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:27:02,865 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:27:02,885 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:27:02,886 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 11:27:13,168 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 11:27:13,169 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:27:13,207 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:27:15,241 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:27:15,261 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:27:15,276 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:27:15,296 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:27:15,297 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 11:27:15,408 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 11:27:15,408 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:27:15,448 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:27:17,468 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:27:17,503 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:27:17,521 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:27:17,548 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:27:17,549 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 11:27:17,781 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (c387a26ae6868a3d26386a32ba41f762)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 11:27:20,783 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 11:27:20,902 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 11:27:23,122 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:27:23,124 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:27:23,127 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:27:23,129 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:27:23,130 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:27:23,509 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:27:23,510 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:27:23,511 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:27:23,512 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:27:23,513 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:50:44,583 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 11:51:11,605 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 11:51:12,104 [Forwarding actions on session 6880540867bcbce69f2f980b2205a3d1 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:51:12,136 [Forwarding actions on session 6880540867bcbce69f2f980b2205a3d1 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:51:12,314 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:51:12,582 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:51:14,604 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:51:14,623 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:51:14,640 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:51:14,672 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:51:14,673 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 11:51:21,324 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 11:51:21,325 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:51:21,424 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:51:23,767 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:51:23,789 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:51:23,815 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:51:23,844 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:51:23,845 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 11:51:24,125 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 11:51:24,126 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:51:25,502 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:51:27,535 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:51:27,555 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:51:27,572 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:51:27,597 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:51:27,598 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 11:51:40,269 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 11:51:40,270 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:51:40,297 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:51:42,317 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:51:42,336 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:51:42,353 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:51:42,375 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:51:42,376 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 11:51:42,483 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 11:51:42,484 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:51:42,525 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:51:44,550 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:51:44,569 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:51:44,588 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:51:44,611 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:51:44,612 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 11:51:44,833 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (6880540867bcbce69f2f980b2205a3d1)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 11:51:47,835 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 11:51:47,943 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 11:51:51,306 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:51:51,309 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:51:51,312 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:51:51,314 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:51:51,315 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:51:51,979 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:51:51,980 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:51:51,982 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:51:51,984 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:51:51,984 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:53:46,569 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 11:54:10,432 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 11:54:10,687 [Forwarding actions on session 8a20771ac9147c28829410b1e9973991 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:54:10,795 [Forwarding actions on session 8a20771ac9147c28829410b1e9973991 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 11:54:11,227 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:54:11,487 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:54:13,594 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:54:13,619 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:54:13,636 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:54:13,668 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 11:54:13,669 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 11:54:18,467 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 11:54:18,468 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:54:18,568 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:54:20,588 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:54:20,612 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:54:20,652 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:54:20,900 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 11:54:20,902 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 11:54:21,105 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 11:54:21,106 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:54:21,218 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:54:23,237 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:54:24,199 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:54:24,225 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:54:24,250 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 11:54:24,251 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 11:54:35,068 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 11:54:35,069 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:54:35,130 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:54:37,180 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:54:37,573 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:54:37,593 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:54:37,615 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 11:54:37,616 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 11:54:37,759 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 11:54:37,760 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:54:37,855 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:54:39,886 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:54:39,910 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:54:39,943 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:54:39,968 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 11:54:39,969 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 11:54:40,316 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (8a20771ac9147c28829410b1e9973991)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 11:54:43,318 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 11:54:43,365 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 11:54:49,123 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 11:54:49,158 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 11:54:53,122 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:54:53,347 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:54:53,361 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:54:53,363 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:54:53,364 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 11:54:53,890 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 11:54:53,891 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 11:54:53,892 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 11:54:53,893 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 11:54:53,894 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:00:54,460 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:01:19,403 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:01:19,544 [Forwarding actions on session 25c0ad7baef74c1d23b4bf9fde4da171 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:01:19,581 [Forwarding actions on session 25c0ad7baef74c1d23b4bf9fde4da171 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:01:19,765 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:01:19,853 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:01:21,875 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:01:21,907 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:01:21,931 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:01:21,950 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:01:21,951 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:01:29,594 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:01:29,595 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:01:29,688 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:01:31,749 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:01:32,271 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:01:32,299 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:01:32,335 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:01:32,336 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:01:32,984 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:01:32,985 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:01:33,046 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:01:35,074 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:01:35,096 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:01:35,115 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:01:35,137 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:01:35,138 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:01:45,771 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:01:45,772 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:01:45,820 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:01:47,842 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:01:47,860 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:01:47,877 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:01:47,896 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:01:47,897 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:01:47,995 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:01:47,996 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:01:48,042 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:01:50,065 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:01:50,082 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:01:50,098 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:01:50,120 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:01:50,121 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:01:50,337 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (25c0ad7baef74c1d23b4bf9fde4da171)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:01:53,338 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:01:53,401 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:01:56,131 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:01:56,164 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:01:57,537 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:01:57,540 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:01:57,543 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:01:57,545 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:01:57,546 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:01:57,955 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:01:57,956 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:01:57,957 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:01:57,958 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:01:57,959 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:07:51,928 [TestNG] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:08:10,378 [TestNG] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:08:10,512 [Forwarding actions on session 7f2fd2948aaabcc3fe0c7884bcc85c73 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:08:20,515 [Forwarding actions on session 7f2fd2948aaabcc3fe0c7884bcc85c73 to remote] INFO Carwale - Exception occured: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ALKESH-PC', ip: '192.168.1.33', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+2019-09-14 12:08:21,131 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:08:21,136 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:08:21,140 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:08:21,143 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:08:21,144 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:08:21,964 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:08:21,965 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:08:21,966 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:08:21,967 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:08:21,967 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:08:35,045 [TestNG] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:08:56,397 [TestNG] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:08:56,497 [Forwarding actions on session ed821419f838c8d63916b523bc49d949 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:09:09,769 [Forwarding actions on session ed821419f838c8d63916b523bc49d949 to remote] INFO Carwale - Exception occured: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ALKESH-PC', ip: '192.168.1.33', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+2019-09-14 12:09:10,488 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:09:10,493 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:09:10,496 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:09:10,529 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:09:10,530 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:09:10,988 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:09:10,989 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:09:10,990 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:09:10,991 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:09:10,991 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:10:25,041 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:10:34,449 [TestNG-tests-1] INFO Carwale - Exception occured: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ALKESH-PC', ip: '192.168.1.33', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Alkesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1a1d6d283add18049d799affb65aacda
+2019-09-14 12:10:34,934 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:10:34,937 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:10:34,940 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:10:34,942 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:10:34,943 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:10:35,353 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:10:35,354 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:10:35,355 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:10:35,356 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:10:35,362 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:12:50,606 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:13:11,992 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:13:12,207 [Forwarding actions on session 79418eeb62797491181f6992232c8928 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:13:15,174 [Forwarding actions on session 79418eeb62797491181f6992232c8928 to remote] INFO Carwale - Exception occured: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ALKESH-PC', ip: '192.168.1.33', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+2019-09-14 12:13:15,532 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:13:15,535 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:13:15,538 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:13:15,540 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:13:15,541 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:13:15,965 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:13:15,968 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:13:15,970 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:13:15,971 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:13:15,972 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:18:43,467 [TestNG-tests-1] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: standard
+2019-09-14 12:18:43,547 [TestNG-tests-1] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2019-09-14 12:18:43,552 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-09-14 12:18:43,639 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-09-14 12:18:43,644 [TestNG-tests-1] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://raw.githubusercontent.com:443
+2019-09-14 12:18:44,419 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to raw.githubusercontent.com/151.101.36.133:443
+2019-09-14 12:18:44,420 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/151.101.36.133:443 with timeout 0
+2019-09-14 12:18:49,388 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-09-14 12:18:49,390 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-09-14 12:18:49,392 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+2019-09-14 12:18:49,851 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+2019-09-14 12:18:49,852 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+2019-09-14 12:18:49,853 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2019-09-14 12:18:49,854 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2019-09-14 12:18:49,855 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2019-09-14 12:18:49,856 [TestNG-tests-1] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2019-09-14 12:18:49,880 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.42.200:53689<->151.101.36.133:443
+2019-09-14 12:18:49,881 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 30000
+2019-09-14 12:18:49,882 [TestNG-tests-1] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2019-09-14 12:18:49,882 [TestNG-tests-1] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2019-09-14 12:18:49,907 [TestNG-tests-1] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2019-09-14 12:18:49,918 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2019-09-14 12:18:49,920 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2019-09-14 12:18:49,921 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: keep-alive
+2019-09-14 12:18:49,922 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: raw.githubusercontent.com
+2019-09-14 12:18:49,923 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-09-14 12:18:49,924 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2019-09-14 12:18:49,925 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2019-09-14 12:18:49,926 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2019-09-14 12:18:49,927 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2019-09-14 12:18:49,928 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-09-14 12:18:49,929 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2019-09-14 12:18:50,093 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-09-14 12:18:50,094 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2019-09-14 12:18:50,094 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2019-09-14 12:18:50,095 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2019-09-14 12:18:50,096 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2019-09-14 12:18:50,096 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2019-09-14 12:18:50,097 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "ETag: "ba07ee3ce2c3805c138e38ce0fe7562539684055"[\r][\n]"
+2019-09-14 12:18:50,098 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2019-09-14 12:18:50,099 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2019-09-14 12:18:50,100 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Geo-Block-List:[\r][\n]"
+2019-09-14 12:18:50,100 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-GitHub-Request-Id: F74E:6C9B:EFC1D:1302FC:5D7C8D28[\r][\n]"
+2019-09-14 12:18:50,102 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-09-14 12:18:50,102 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 644[\r][\n]"
+2019-09-14 12:18:50,103 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2019-09-14 12:18:50,104 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sat, 14 Sep 2019 06:49:10 GMT[\r][\n]"
+2019-09-14 12:18:50,104 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2019-09-14 12:18:50,105 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-09-14 12:18:50,106 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Served-By: cache-ams21046-AMS[\r][\n]"
+2019-09-14 12:18:50,106 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+2019-09-14 12:18:50,107 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+2019-09-14 12:18:50,108 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Timer: S1568443750.177174,VS0,VE0[\r][\n]"
+2019-09-14 12:18:50,108 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-09-14 12:18:50,109 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-09-14 12:18:50,110 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Fastly-Request-ID: 497bfdd4397c69c3efcd7e353a5c8c542281ea19[\r][\n]"
+2019-09-14 12:18:50,110 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Expires: Sat, 14 Sep 2019 06:54:10 GMT[\r][\n]"
+2019-09-14 12:18:50,115 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Source-Age: 62[\r][\n]"
+2019-09-14 12:18:50,116 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2019-09-14 12:18:50,117 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x94][0xcb][0xae][0x9b]0[0x10]@[0xf7][0xf9][\n]"
+2019-09-14 12:18:50,118 [TestNG-tests-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Kw[0xd3].b[0xfc][0x0][0x1b]"[0xb1][0xe9]sUu[0xd1][0xee]+[0x12][0x9c][0xc4][0xba][0x4]G[0x86][0xdc][0xb4][0xfd][0xfa]z[0xfc][0xe0]:[0xa8][0x95][0xba]A:[0x7]{<[0x8c][0x87]yB[0xdf][0xcf]zBG=(t0[0xe3][0xdc][0xe9]qB[0xf3]Y[0xa1][0xe7][0xd1][0xdc]G[0xf4][0xa2][0xec][0xa4][0x8d]SGcQo50z[0xb3][0xd7]cg[0xbd]u[0x1b].[0xd7]n[0xd6]{[0xb7][0xf7][0xae][0xe7][0xb3][0xdf]w0[0xd6][0xaa][0xe9]j[0xc6]^[0x8f]'[0xb4][0xb7][0xe6]>)[0x9b][0xe2]l6O[0xe8]]P;[0xf4][0xd9][0x98][0x93][0xdb][0xf9][0xfe]l[0xcd]E[0xa1]-[0xfa][0xe0][0xc3][0xef][0xd0][0xc1][0x8b]p[0x98][[0xff][0xcd][0xdc][0xec]A[0xed][0xd0]y[0x9e][0xaf][0xbb][0xa2][0xc8][0xdf]b[0xf][0xfa]v[0xc1][0xc6][0x9e][0x8a][0xde]%<[0x98][0xae][0x9f]6a[0x8d][0xac][Yc[0x82]yCJLi[0xb2][0xb2][0x95][0x12]l-*\[0x92]dE+[0x85][0xb7][0xa4][0xc1][0x94][0x89][0xa4][0xab]VV[0xa0][0xa5]$[0x98][0xbe][0xae].[Yz[0xcd][0x1a][0xbc][0xac][0xe5][0xad][0xe4] E[0xcd][0xb1][0xa8][0x93]e-[0xc3][0xe5][0xb2][0x86]>[0x10][0x1][0xaa]"[0x89][0x6][0xa8]LT[0x3][0xb1]D[0x12](}[0x82][0x10]@)[0x19]Q9[0xe2][0xe9]<Q[0x2][0xc9]D[0x1c]([0x9d]' [0x17][0xbe][0x9c][0x7][0xb9][0xf0][0xe5]<[0xc8][0x85][0xf3][0x87][0xb][0xfa]b~[0xeb]a[0xe8][0xd0]'m[0xd5][0xd1][0xfc][0xcc][0xae][0xe8][0xa4][0xe][0xcf][0xe6][0xaf]74[0xb9]+:[0xb9]^[0xb8][0xed][0xb1][0xeb][0x8e][0xe2][0x12]B[0x14][0xd9][0x86][0xc2][0xaa]Au[0x93][0x9a]6[0xc7][0x10][0xd7]}*[0xc1][0xcc][0x95]y[0x11][0x12]D[0x99][0x9][0xb1][0x16][0xd5]Z[0x94] x&[0xf8]Z0[0x10],[0x13][0x14][0x4][0xcd][0x4]Y[0x89][0xaa]Y[0x8b]z-[0xe4]Z[0xf8]LI&[0xaa]$[0xf2][0xca]~[0xbd]*[0xdb]e[0xf5]4[0xc0][0xff]SO[0xbf]p2[0xc7][0xf9][0xde]Y[0x15]([0xfd][0x3][0xeb][0xea][0xfa][0x97][0xae][0xc]Y_s[0x16]-[0xcb][0xdb][0x9a][0x90]hc;z[0xa8][0x9a][0x1c]b3[0x6][0x88][0xbd][0x18] [0xb6]b[0x80][0xd8][0x89][0x1]b#[0x6][0x88]}[0x18] [0xb6]a[0x0][0x1a][0xfa].[0x0][0xc9][0xa0][0x84][0xc]R[0xc6]%d[0xc0][0xe3]9%d[0xc0][0x9a][0x8]"[0xc0]C[0xe3][0xea][0x83]5P%[0xf4][0xb1]?[0xe5][0xa3][0xe5]2)'[0xfe]Y[0xe8]^[0xbd][0xa8][0x1][0xa2][0xe2]K[0x8a][0xe0][0xab][0xae][0xc6][0xed]m*[0x16][0xb7][0x85] [0xc5]l[0xcc]0[0x15]w[0xb5][0x8f][0x85]G[0xdb][0xed][0x12]H[0x8d][0xf8][0xae][0x9f][0xf5]U[0xf5][0xba][0xf3][0xb3][0x9][0xa8]X[0xd2][0xfa][0x1]im J[0x9a]F[0x8c][0xbb]g0q[0x12][0xd1][0x9a]'[0x13][0x87][0x10][0xe5][0x8d][0xeb]$[0xaf][0xca][0xb2][0xbd]Z[0xb5]u[0xb3]z[0xee][0x86]A[0xf5]A[0xb2]V`*[0xa9][0xfb][0xa7]=[0xd2][0xb6][0xc2]T[0xb0][0xa6][0x9]HZ7[0x5]+"[0xb8]G^[0xb7][0xdc]M4[0xde][0x4]dpu[0x94]T[0xb5][0x8]HZ[0xea][0x90][0xb9][0x9b][0xfd][0x3][0xe9]YEy![0x6][0x0][0x0]"
+2019-09-14 12:18:50,224 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+2019-09-14 12:18:50,225 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2019-09-14 12:18:50,226 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2019-09-14 12:18:50,238 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+2019-09-14 12:18:50,278 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Frame-Options: deny
+2019-09-14 12:18:50,278 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2019-09-14 12:18:50,279 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << ETag: "ba07ee3ce2c3805c138e38ce0fe7562539684055"
+2019-09-14 12:18:50,281 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2019-09-14 12:18:50,281 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Cache-Control: max-age=300
+2019-09-14 12:18:50,282 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Geo-Block-List:
+2019-09-14 12:18:50,282 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-GitHub-Request-Id: F74E:6C9B:EFC1D:1302FC:5D7C8D28
+2019-09-14 12:18:50,283 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Encoding: gzip
+2019-09-14 12:18:50,284 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 644
+2019-09-14 12:18:50,284 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Accept-Ranges: bytes
+2019-09-14 12:18:50,286 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sat, 14 Sep 2019 06:49:10 GMT
+2019-09-14 12:18:50,287 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Via: 1.1 varnish
+2019-09-14 12:18:50,287 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+2019-09-14 12:18:50,290 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Served-By: cache-ams21046-AMS
+2019-09-14 12:18:50,291 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache: HIT
+2019-09-14 12:18:50,291 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Hits: 1
+2019-09-14 12:18:50,292 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Timer: S1568443750.177174,VS0,VE0
+2019-09-14 12:18:50,298 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2019-09-14 12:18:50,299 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-09-14 12:18:50,299 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << X-Fastly-Request-ID: 497bfdd4397c69c3efcd7e353a5c8c542281ea19
+2019-09-14 12:18:50,300 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Expires: Sat, 14 Sep 2019 06:54:10 GMT
+2019-09-14 12:18:50,301 [TestNG-tests-1] DEBUG org.apache.http.headers - http-outgoing-0 << Source-Age: 62
+2019-09-14 12:18:50,313 [TestNG-tests-1] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2019-09-14 12:18:50,342 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2019-09-14 12:18:50,342 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+2019-09-14 12:18:50,343 [TestNG-tests-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-09-14 12:19:03,606 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:20:13,276 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:20:13,498 [Forwarding actions on session 1e46006e332c4a3d9c8d530f5e2baadd to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:20:13,545 [Forwarding actions on session 1e46006e332c4a3d9c8d530f5e2baadd to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:20:13,810 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:20:13,861 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:20:15,931 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:20:15,952 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:20:15,980 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:20:16,019 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:20:16,021 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (1e46006e332c4a3d9c8d530f5e2baadd)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:22:21,142 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (1e46006e332c4a3d9c8d530f5e2baadd)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:22:21,143 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:23:11,247 [TestNG-tests-1] INFO Carwale - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li/h3[contains(.,'Body Type')]"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ALKESH-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Alkesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e46006e332c4a3d9c8d530f5e2baadd
+*** Element info: {Using=xpath, value=//li/h3[contains(.,'Body Type')]}
+2019-09-14 12:23:12,017 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:23:12,025 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:23:12,028 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:23:12,031 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:23:12,032 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:23:12,740 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:23:12,741 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:23:12,742 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:23:12,749 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:23:12,749 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:30:35,726 [TestNG-tests-1] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:30:50,193 [TestNG-tests-1] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:30:50,380 [Forwarding actions on session de4b1f537643b8ce30f8ac0ba0186093 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:30:51,313 [Forwarding actions on session de4b1f537643b8ce30f8ac0ba0186093 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:30:51,647 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:30:51,820 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:30:53,899 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:30:53,929 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:30:53,951 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:30:53,984 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:30:53,986 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:30:58,197 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:30:58,198 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:30:58,549 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:31:00,730 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:31:01,102 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:31:01,243 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:31:01,276 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:31:01,276 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:31:01,493 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:31:01,493 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:31:01,593 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:31:03,626 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:31:03,775 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:31:03,794 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:31:03,820 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:31:03,821 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:31:11,533 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:31:11,534 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:31:11,582 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:31:13,644 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:31:13,681 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:31:13,700 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:31:13,727 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:31:13,728 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:31:13,910 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:31:13,912 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:31:13,949 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:31:15,974 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:31:15,993 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:31:16,011 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:31:16,043 [TestNG-tests-1] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:31:16,044 [TestNG-tests-1] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:31:16,427 [TestNG-tests-1] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (de4b1f537643b8ce30f8ac0ba0186093)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:31:19,429 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:31:19,518 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:31:23,638 [TestNG-tests-1] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:31:23,678 [TestNG-tests-1] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:31:26,047 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:31:26,051 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:31:26,054 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:31:26,057 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:31:26,058 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:31:26,926 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:31:26,927 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:31:26,928 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:31:26,929 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:31:26,930 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:42:06,999 [TestNG] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:43:18,737 [TestNG] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:43:18,968 [Forwarding actions on session 2863bb5a206b2f7df82c6b8f7928c097 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:43:19,032 [Forwarding actions on session 2863bb5a206b2f7df82c6b8f7928c097 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:43:19,327 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:43:19,409 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:43:21,509 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:43:21,531 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:43:21,558 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:43:21,599 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:43:21,600 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:43:25,198 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:43:25,199 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:43:25,545 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:43:27,734 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:43:28,786 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:43:28,883 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:43:29,008 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:43:29,012 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:43:30,029 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:43:30,030 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:43:30,104 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:43:32,151 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:43:32,240 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:43:32,258 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:43:32,279 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:43:32,280 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:43:36,776 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:43:36,777 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:43:36,869 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:43:39,238 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:43:39,269 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:43:39,283 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:43:39,311 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:43:39,312 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:43:39,454 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:43:39,455 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:43:39,485 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:43:41,506 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:43:41,537 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:43:41,556 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:43:41,581 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:43:41,582 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:43:41,792 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (2863bb5a206b2f7df82c6b8f7928c097)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:43:44,792 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:44,887 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:44,888 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:44,908 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:48,102 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:48,127 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:48,128 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:48,148 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,446 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,467 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,468 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,486 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,561 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,590 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,591 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,614 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,687 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,707 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,708 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,728 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,812 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,835 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,836 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,855 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,913 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,947 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,948 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:49,973 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,025 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,052 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,053 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,075 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,126 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,148 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,148 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,169 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,221 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,247 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,248 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,270 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,322 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,349 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:43:50,350 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,377 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,377 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,396 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,443 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,462 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,462 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,481 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,543 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,568 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,569 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,587 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,642 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,660 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,661 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,679 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,726 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,749 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,750 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,768 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,814 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,855 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,856 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:50,878 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,118 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,140 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,141 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,160 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,267 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,286 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,287 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,315 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,362 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,380 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,381 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,400 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,447 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,474 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,475 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,494 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,532 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:51,550 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:43:52,485 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:43:52,489 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:43:52,491 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:43:52,494 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:43:52,494 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:43:53,283 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:43:53,284 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:43:53,285 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:43:53,286 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:43:53,286 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:46:54,513 [TestNG] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:47:08,743 [TestNG] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:47:09,102 [Forwarding actions on session a2a5fb6699d76eaa49d2a85f0940ef82 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:47:09,140 [Forwarding actions on session a2a5fb6699d76eaa49d2a85f0940ef82 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:47:09,367 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:47:09,404 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:47:11,459 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:47:11,493 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:47:11,517 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:47:11,542 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:47:11,543 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:47:21,032 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:47:21,033 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:47:21,176 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:47:23,239 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:47:23,259 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:47:23,285 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:47:23,316 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:47:23,317 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:47:23,543 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:47:23,544 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:47:23,635 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:47:25,666 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:47:25,691 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:47:25,713 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:47:25,736 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:47:25,737 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:47:31,860 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:47:31,861 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:47:32,028 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:47:34,058 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:47:34,085 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:47:34,133 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:47:34,171 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:47:34,172 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:47:34,333 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:47:34,334 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:47:34,367 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:47:36,387 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:47:36,416 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:47:36,446 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:47:36,470 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:47:36,471 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:47:36,724 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (a2a5fb6699d76eaa49d2a85f0940ef82)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:47:39,726 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:47:39,838 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:47:39,840 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:47:39,873 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:47:43,773 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:47:43,776 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:47:43,779 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:47:43,781 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:47:43,782 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:47:44,569 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:47:44,570 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:47:44,571 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:47:44,572 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:47:44,573 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:48:23,838 [TestNG] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:48:31,560 [TestNG] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:48:31,697 [Forwarding actions on session 1968f9092d4ffedeb882eb31c6a51a24 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:48:31,732 [Forwarding actions on session 1968f9092d4ffedeb882eb31c6a51a24 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:48:31,980 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:48:32,170 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:48:34,188 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:48:34,208 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:48:34,229 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:48:34,249 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:48:34,250 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:48:40,002 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:48:40,003 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:48:40,110 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:48:42,167 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:48:42,438 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:48:42,511 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:48:43,203 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:48:43,204 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:48:43,636 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:48:43,637 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:48:43,706 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:48:45,727 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:48:46,878 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:48:46,906 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:48:46,945 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:48:46,946 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:48:51,748 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:48:51,749 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:48:51,849 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:48:53,888 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:48:53,923 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:48:53,939 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:48:53,965 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:48:53,966 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:48:54,137 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:48:54,138 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:48:54,171 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:48:56,186 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:48:56,205 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:48:56,221 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:48:56,245 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:48:56,247 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:48:56,461 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (1968f9092d4ffedeb882eb31c6a51a24)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:48:59,461 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:48:59,496 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:48:59,498 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:48:59,518 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:00,968 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:00,989 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:00,990 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,013 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,128 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,156 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,157 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,182 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,278 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,298 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,299 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,318 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,439 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,460 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,461 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,481 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,581 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,601 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,602 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,623 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,710 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,742 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,747 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,771 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,914 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,935 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,936 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:01,954 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,038 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,057 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,058 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,077 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,175 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,194 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,195 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,214 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,295 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,317 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:49:02,318 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,349 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,350 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,379 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,502 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,533 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,534 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,553 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,666 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,697 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,698 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:02,717 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,320 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,418 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,419 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,447 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,582 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,617 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,618 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,648 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,770 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,805 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,806 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,839 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,946 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,965 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,966 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:03,990 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,088 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,110 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,110 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,131 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,308 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,331 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,332 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,355 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,438 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,457 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,457 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,484 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,583 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:04,602 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:49:05,120 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:49:05,124 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:49:05,128 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:49:05,130 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:49:05,131 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:49:05,527 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:49:05,528 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:49:05,529 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:49:05,530 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:49:05,530 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:57:16,782 [TestNG] INFO Carwale - Before navigating to: 'https://www.carwale.com/'
+2019-09-14 12:57:30,577 [TestNG] INFO Carwale - Navigated to:'https://www.carwale.com/'
+2019-09-14 12:57:30,694 [Forwarding actions on session 95ffb62f86e889af28b103256cb8a209 to remote] INFO Carwale - Trying to find Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:57:30,742 [Forwarding actions on session 95ffb62f86e889af28b103256cb8a209 to remote] INFO Carwale - Found Element By : By.xpath: //div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']
+2019-09-14 12:57:30,953 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:57:31,105 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:57:33,184 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:57:33,202 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:57:33,220 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:57:33,240 [TestNG] INFO Carwale - Found Element By : By.xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]
+2019-09-14 12:57:33,241 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:57:44,625 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]]
+2019-09-14 12:57:44,626 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:57:44,689 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:57:46,718 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:57:46,744 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:57:46,774 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:57:46,851 [TestNG] INFO Carwale - Found Element By : By.xpath: //li/h3[contains(.,'Body Type')]
+2019-09-14 12:57:46,852 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:57:47,065 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //li/h3[contains(.,'Body Type')]]
+2019-09-14 12:57:47,066 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:57:48,342 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:57:50,406 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:57:51,106 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:57:51,123 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:57:51,146 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(.,'SUV/MUV')]
+2019-09-14 12:57:51,147 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:57:57,509 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //span[contains(.,'SUV/MUV')]]
+2019-09-14 12:57:57,510 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:57:57,538 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:57:59,550 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:57:59,579 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:57:59,601 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:57:59,633 [TestNG] INFO Carwale - Found Element By : By.xpath: //span[contains(@id,'budget_exp_col')]
+2019-09-14 12:57:59,634 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:57:59,944 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //span[contains(@id,'budget_exp_col')]]
+2019-09-14 12:57:59,944 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:58:00,041 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:58:02,055 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:58:02,073 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:58:02,084 [TestNG] INFO Carwale - Trying to find Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:58:02,122 [TestNG] INFO Carwale - Found Element By : By.xpath: //a[contains(.,'8-12 lakh')]
+2019-09-14 12:58:02,123 [TestNG] INFO Carwale - Trying to click on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:58:02,353 [TestNG] INFO Carwale - Clicked on: [[ChromeDriver: chrome on XP (95ffb62f86e889af28b103256cb8a209)] -> xpath: //a[contains(.,'8-12 lakh')]]
+2019-09-14 12:58:05,354 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:05,395 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:05,397 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:05,415 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,642 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,666 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,667 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,688 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,835 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,858 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,859 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,881 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:06,985 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,004 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,005 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,025 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,134 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,164 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,165 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,193 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,289 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,308 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,309 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,331 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,421 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,445 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,445 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,469 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,559 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,599 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,600 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,623 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,722 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,744 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,745 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,765 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,856 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,875 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,876 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:07,899 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:08,001 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:08,023 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //a[@class='href-title']})
+2019-09-14 12:58:08,024 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,050 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,051 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,070 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,180 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,199 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,200 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,219 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,316 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,340 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,341 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,364 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,470 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,493 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,494 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,513 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,607 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,634 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,636 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,656 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,850 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,875 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,876 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:08,903 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,026 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,055 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,056 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,082 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,194 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,245 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,246 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,272 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,381 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,399 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,400 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,417 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,518 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,536 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,537 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,556 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,662 [TestNG] INFO Carwale - Trying to find Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:09,687 [TestNG] INFO Carwale - Found Element By : By.all({By.xpath: //td[@class='price2']})
+2019-09-14 12:58:10,178 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:58:10,182 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:58:10,185 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:58:10,187 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:58:10,187 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-14 12:58:10,582 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-14 12:58:10,584 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-14 12:58:10,585 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-14 12:58:10,585 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-14 12:58:10,586 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Alkesh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

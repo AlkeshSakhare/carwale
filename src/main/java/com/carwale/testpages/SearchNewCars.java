@@ -1,14 +1,7 @@
 package com.carwale.testpages;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.List;
 
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +12,7 @@ import com.carwaleTestUtils.TestUtils;
 
 public class SearchNewCars extends TestBase {
 
-	@FindBy(xpath = "//div[@class='top-nav-label']/span[text()='New Cars']")
+	@FindBy(xpath = "//div[@class='top-nav-label js-main-nav-label']/span[text()='New Cars']")
 	WebElement newCarsPopup;
 
 	@FindBy(xpath = "//ul[@class='nested-panel-list']/li/a[contains(.,'Find New Cars')]")
@@ -59,11 +52,25 @@ public class SearchNewCars extends TestBase {
 			TestUtils.click(budgetExpandBtn);
 			TestUtils.click(budget8_12);
 			Thread.sleep(3000);
+<<<<<<< HEAD
 			for (int i = 0; i < carNameList.size(); i++) {
 				System.out.println(carNameList.get(i).getText().toString());
 			}
 			for (int i = 0; i < carPriceList.size(); i++) {
 				System.out.println(carPriceList.get(i).getText().toString());
+=======
+			String data;
+			for (int i = 0; i < carNameList.size(); i++) {
+				data = carNameList.get(i).getText().toString();
+				System.out.println(data);
+				TestUtils.setCellData("Sheet2", i, 0, data);
+			}
+			for (int i = 0; i < carPriceList.size(); i++) {
+				data = carPriceList.get(i).getText().toString();
+				data = data.substring(2, 12);
+				System.out.println(data);
+				TestUtils.setCellData("Sheet2", i, 2, data);
+>>>>>>> 8db4b2b68612a338d4ae763fc01001704ec752f8
 			}
 
 			// int rownum = 1;
@@ -89,6 +96,7 @@ public class SearchNewCars extends TestBase {
 		}
 	}
 
+<<<<<<< HEAD
 	public void saveData(int rownum, int colnum, String data) {
 		try {
 			File file = new File(userdir + "/src/main/java/com/carwale/testdata/TestData.xlsx");
@@ -113,4 +121,6 @@ public class SearchNewCars extends TestBase {
 		}
 	}
 
+=======
+>>>>>>> 8db4b2b68612a338d4ae763fc01001704ec752f8
 }

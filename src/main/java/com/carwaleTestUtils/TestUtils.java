@@ -11,7 +11,10 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+<<<<<<< HEAD
 import org.apache.poi.ss.usermodel.DataFormatter;
+=======
+>>>>>>> 8db4b2b68612a338d4ae763fc01001704ec752f8
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -27,10 +30,11 @@ import org.openqa.selenium.WebElement;
 import com.carwale.testbase.TestBase;
 
 public class TestUtils extends TestBase {
+	public static final int IMPLICIT_WAIT = 30;
+	public static final int PAGE_LOAD_TIMEOUT = 30;
 	public static String TESTDATA_SHEET_PATH = userdir + "/src/main/java/com/carwale/testdata/TestData.xlsx";
 	public static Workbook book;
 	public static Sheet sheet;
-
 	public static FileInputStream fi;
 	public static FileOutputStream fo;
 	public static XSSFWorkbook wb;
@@ -38,6 +42,7 @@ public class TestUtils extends TestBase {
 	public static XSSFRow row;
 	public static XSSFCell cell;
 
+<<<<<<< HEAD
 	public static void saveData(String sheetName, int rowNo, int colNo, String data) throws IOException {
 		fi = new FileInputStream(new File(TESTDATA_SHEET_PATH));
 		wb = new XSSFWorkbook(fi);
@@ -49,6 +54,9 @@ public class TestUtils extends TestBase {
 	}
 
 	public static Object[][] getTestData(String sheetName) {
+=======
+	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
+>>>>>>> 8db4b2b68612a338d4ae763fc01001704ec752f8
 		FileInputStream file = null;
 		try {
 			file = new FileInputStream(TESTDATA_SHEET_PATH);
@@ -60,15 +68,14 @@ public class TestUtils extends TestBase {
 		} catch (IOException | InvalidFormatException e) {
 			e.printStackTrace();
 		}
-		DataFormatter formatter = new DataFormatter();
 		sheet = book.getSheet(sheetName);
 		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
 		// System.out.println(sheet.getLastRowNum() + "--------" +
 		// sheet.getRow(0).getLastCellNum());
 		for (int i = 0; i < sheet.getLastRowNum(); i++) {
 			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
-				data[i][k] = formatter.formatCellValue(sheet.getRow(i + 1).getCell(k));
-				System.out.println(data[i][k]);
+				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
+				// System.out.println(data[i][k]);
 			}
 		}
 		return data;
@@ -78,8 +85,8 @@ public class TestUtils extends TestBase {
 		fi = new FileInputStream(TESTDATA_SHEET_PATH);
 		wb = new XSSFWorkbook(fi);
 		ws = wb.getSheet(sheetName);
-		row = ws.getRow(rownum);
-		System.out.println(cell = row.createCell(colnum));
+		row = ws.createRow(rownum);
+		cell = row.createCell(colnum);
 		cell.setCellValue(data);
 		fo = new FileOutputStream(TESTDATA_SHEET_PATH);
 		wb.write(fo);

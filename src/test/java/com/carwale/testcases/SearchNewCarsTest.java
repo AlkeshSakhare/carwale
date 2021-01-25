@@ -23,7 +23,14 @@ public class SearchNewCarsTest extends TestBase {
 
 	@Test
 	public void getresult() {
-		searchNewCars.gotoSearchPage();
+		try {
+			searchNewCars.gotoSearchPage();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			// driver.quit();
+		}
 	}
 
 	@AfterMethod()

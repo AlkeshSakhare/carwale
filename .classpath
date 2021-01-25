@@ -13,7 +13,11 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+>>>>>>> 8db4b2b68612a338d4ae763fc01001704ec752f8
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>

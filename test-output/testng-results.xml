@@ -2,6 +2,7 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="15882" started-at="2019-09-01T15:46:20Z" finished-at="2019-09-01T15:46:36Z">
     <groups>
     </groups>
@@ -61,10 +62,26 @@
           </reporter-output>
         </test-method> <!-- getresult -->
         <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@1dfb72a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-01T21:16:36Z" finished-at="2019-09-01T21:16:36Z">
+=======
+  <suite name="Suite" duration-ms="59356" started-at="2019-09-14T07:27:10Z" finished-at="2019-09-14T07:28:09Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="59356" started-at="2019-09-14T07:27:10Z" finished-at="2019-09-14T07:28:09Z">
+      <class name="com.carwale.testcases.SearchNewCarsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@c4c815]" name="setUp" is-config="true" duration-ms="20313" started-at="2019-09-14T12:57:10Z" finished-at="2019-09-14T12:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getresult()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@c4c815]" name="getresult" duration-ms="39008" started-at="2019-09-14T12:57:30Z" finished-at="2019-09-14T12:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.carwale.testcases.SearchNewCarsTest@c4c815]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-14T12:58:09Z" finished-at="2019-09-14T12:58:09Z">
+>>>>>>> 8db4b2b68612a338d4ae763fc01001704ec752f8
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.carwale.testcases.SearchNewCarsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>
